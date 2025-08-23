@@ -38,5 +38,25 @@ def run_quiz():
             {"question": "Wave that can travel in vacuum?\n(a) Sound\n(b) Light\n(c) Water\n(d) Seismic", "answer": "b"},
             {"question": "SI unit of temperature?\n(a) Celsius\n(b) Kelvin\n(c) Fahrenheit\n(d) Joule", "answer": "b"}
         ],
-    }
-
+ "Chemistry": [
+            {"question": "Chemical symbol for gold?\n(a) Au\n(b) Ag\n(c) Go\n(d) Gd", "answer": "a"},
+            {"question": "pH of pure water?\n(a) 7\n(b) 0\n(c) 14\n(d) 1", "answer": "a"},
+            {"question": "Atomic number of Hydrogen?\n(a) 1\n(b) 2\n(c) 3\n(d) 4", "answer": "a"},
+            {"question": "Chemical formula of water?\n(a) H2O\n(b) CO2\n(c) O2\n(d) H2", "answer": "a"},
+            {"question": "Gas in balloons?\n(a) Oxygen\n(b) Nitrogen\n(c) Helium\n(d) Carbon dioxide", "answer": "c"},
+            {"question": "NaCl is?\n(a) Acid\n(b) Base\n(c) Salt\n(d) Sugar", "answer": "c"},
+            {"question": "Periodic table is by?\n(a) Newton\n(b) Mendeleev\n(c) Einstein\n(d) Bohr", "answer": "b"},
+            {"question": "Solvent in salt water?\n(a) Salt\n(b) Water\n(c) Sugar\n(d) Alcohol", "answer": "b"},
+            {"question": "HCl is?\n(a) Acid\n(b) Base\n(c) Salt\n(d) Alcohol", "answer": "a"},
+            {"question": "NaOH is?\n(a) Acid\n(b) Base\n(c) Salt\n(d) Sugar", "answer": "b"},
+            {"question": "O2 is?\n(a) Oxygen\n(b) Carbon dioxide\n(c) Nitrogen\n(d) Hydrogen", "answer": "a"},
+            {"question": "C6H12O6 is?\n(a) Glucose\n(b) Salt\n(c) Water\n(d) Alcohol", "answer": "a"},
+            {"question": "Strongest acid?\n(a) HCl\n(b) H2SO4\n(c) HNO3\n(d) HF", "answer": "b"},
+            {"question": "Noble gases are?\n(a) Reactive\n(b) Inert\n(c) Acidic\n(d) Basic", "answer": "b"},
+            {"question": "Atomic mass unit?\n(a) kg\n(b) amu\n(c) g\n(d) m", "answer": "b"},
+            {"question": "Chemical reaction of photosynthesis?\n(a) CO2 + H2O → O2 + Glucose\n(b) O2 + H2 → H2O\n(c) C + O2 → CO2\n(d) HCl + NaOH → NaCl + H2O", "answer": "a"},
+            {"question": "Boiling point of water?\n(a) 100°C\n(b) 90°C\n(c) 110°C\n(d) 120°C", "answer": "a"},
+            {"question": "Mol is unit of?\n(a) Mass\n(b) Amount of substance\n(c) Volume\n(d) Pressure", "answer": "b"},
+            {"question": "Acid + Base = ?\n(a) Water\n(b) Salt\n(c) Both\n(d) None", "answer": "c"},
+            {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b"}
+            # this part is done by nesiha
