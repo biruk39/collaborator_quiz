@@ -1,4 +1,4 @@
-
+# this physics part was done by biruk
 
 print("===================================")
 print("   Quiz Question     " )
