@@ -1,4 +1,4 @@
-# this physics part was done by biruk
+
 
 print("===================================")
 print("   Quiz Question     " )
@@ -38,7 +38,7 @@ def run_quiz():
             {"question": "Wave that can travel in vacuum?\n(a) Sound\n(b) Light\n(c) Water\n(d) Seismic", "answer": "b"},
             {"question": "SI unit of temperature?\n(a) Celsius\n(b) Kelvin\n(c) Fahrenheit\n(d) Joule", "answer": "b"}
         ],
-        #this part is done by Nesiha
+        #this part is done by biruk daniel
  "Chemistry": [
             {"question": "Chemical symbol for gold?\n(a) Au\n(b) Ag\n(c) Go\n(d) Gd", "answer": "a"},
             {"question": "pH of pure water?\n(a) 7\n(b) 0\n(c) 14\n(d) 1", "answer": "a"},
@@ -61,7 +61,7 @@ def run_quiz():
             {"question": "Acid + Base = ?\n(a) Water\n(b) Salt\n(c) Both\n(d) None", "answer": "c"},
             {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b" }
  ],
-        #this part is done by Hikma mohammed
+        #this part is done by nesiha nurselam
 
         "Math": [
             {"question": "What is 5 + 3?\n(a) 6\n(b) 7\n(c) 8\n(d) 9", "answer": "c"},
@@ -84,7 +84,28 @@ def run_quiz():
             {"question": "What is 5 × 5?\n(a) 20\n(b) 25\n(c) 30\n(d) 35", "answer": "b"},
             {"question": "What is 6 + 9?\n(a) 14\n(b) 15\n(c) 16\n(d) 17", "answer": "b"},
             {"question": "What is 10 ÷ 2?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"}
-        ]
+        ],
+# this part is done by hikma mohammed
 
-    }
-            # this part is done by nesiha
+"Biology": [
+            {"question": "The powerhouse of the cell?\n(a) Nucleus\n(b) Mitochondria\n(c) Ribosome\n(d) Chloroplast", "answer": "b"},
+            {"question": "Human blood type universal donor?\n(a) O+\n(b) AB+\n(c) O-\n(d) A+", "answer": "c"},
+            {"question": "Largest organ in human body?\n(a) Heart\n(b) Skin\n(c) Liver\n(d) Brain", "answer": "b"},
+            {"question": "Basic unit of life?\n(a) Atom\n(b) Cell\n(c) Tissue\n(d) Organ", "answer": "b"},
+            {"question": "Which vitamin is from sunlight?\n(a) A\n(b) B\n(c) C\n(d) D", "answer": "d"},
+            {"question": "Humans have how many chromosomes?\n(a) 46\n(b) 44\n(c) 48\n(d) 42", "answer": "a"},
+            {"question": "Process of making food in plants?\n(a) Respiration\n(b) Photosynthesis\n(c) Digestion\n(d) Fermentation", "answer": "b"},
+            {"question": "What carries oxygen in blood?\n(a) Plasma\n(b) Red blood cells\n(c) Platelets\n(d) WBC", "answer": "b"},
+            {"question": "Smallest blood vessels?\n(a) Veins\n(b) Arteries\n(c) Capillaries\n(d) Venules", "answer": "c"},
+            {"question": "Where is DNA found?\n(a) Ribosome\n(b) Nucleus\n(c) Cytoplasm\n(d) Cell membrane", "answer": "b"},
+            {"question": "Humans have how many senses?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"},
+            {"question": "Which blood cells fight infection?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "b"},
+            {"question": "Plant cells have?\n(a) Cell wall\n(b) Chloroplast\n(c) Vacuole\n(d) All", "answer": "d"},
+            {"question": "Largest bone in human body?\n(a) Femur\n(b) Tibia\n(c) Humerus\n(d) Skull", "answer": "a"},
+            {"question": "Human heart has how many chambers?\n(a) 2\n(b) 3\n(c) 4\n(d) 5", "answer": "c"},
+            {"question": "Process of cell division?\n(a) Mitosis\n(b) Meiosis\n(c) Fertilization\n(d) Both a and b", "answer": "d"},
+            {"question": "Organ for respiration?\n(a) Heart\n(b) Lungs\n(c) Kidney\n(d) Liver", "answer": "b"},
+            {"question": "Smallest unit of an element?\n(a) Atom\n(b) Molecule\n(c) Cell\n(d) Electron", "answer": "a"},
+            {"question": "Blood clotting cells?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "c"},
+            {"question": "Process of breaking down food?\n(a) Digestion\n(b) Photosynthesis\n(c) Respiration\n(d) Excretion", "answer": "a"}
+        ],
