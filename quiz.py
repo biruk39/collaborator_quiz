@@ -97,7 +97,6 @@ def run_quiz():
             {"question": "Process of making food in plants?\n(a) Respiration\n(b) Photosynthesis\n(c) Digestion\n(d) Fermentation", "answer": "b"},
             {"question": "What carries oxygen in blood?\n(a) Plasma\n(b) Red blood cells\n(c) Platelets\n(d) WBC", "answer": "b"},
             {"question": "Smallest blood vessels?\n(a) Veins\n(b) Arteries\n(c) Capillaries\n(d) Venules", "answer": "c"},
-
             {"question": "Humans have how many senses?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"},
             {"question": "Which blood cells fight infection?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "b"},
             {"question": "Plant cells have?\n(a) Cell wall\n(b) Chloroplast\n(c) Vacuole\n(d) All", "answer": "d"},
@@ -108,4 +107,28 @@ def run_quiz():
             {"question": "Smallest unit of an element?\n(a) Atom\n(b) Molecule\n(c) Cell\n(d) Electron", "answer": "a"},
             {"question": "Blood clotting cells?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "c"},
             {"question": "Process of breaking down food?\n(a) Digestion\n(b) Photosynthesis\n(c) Respiration\n(d) Excretion", "answer": "a"}
+            ],
+        
+        "English": [
+            {"question": "Synonym of 'happy'?\n(a) Sad\n(b) Joyful\n(c) Angry\n(d) Tired", "answer": "b"},
+            {"question": "Antonym of 'difficult'?\n(a) Hard\n(b) Easy\n(c) Tough\n(d) Complex", "answer": "b"},
+            {"question": "Plural of 'child'?\n(a) Childs\n(b) Children\n(c) Childes\n(d) Child", "answer": "b"},
+            {"question": "Correct spelling?\n(a) Recieve\n(b) Receive\n(c) Recive\n(d) Receve", "answer": "b"},
+            {"question": "Past tense of 'go'?\n(a) Went\n(b) Gone\n(c) Going\n(d) Goed", "answer": "a"},
+            {"question": "Antonym of 'fast'?\n(a) Quick\n(b) Slow\n(c) Rapid\n(d) Swift", "answer": "b"},
+            {"question": "Synonym of 'small'?\n(a) Tiny\n(b) Huge\n(c) Large\n(d) Big", "answer": "a"},
+            {"question": "Plural of 'mouse'?\n(a) Mouses\n(b) Mice\n(c) Mouse\n(d) Mices", "answer": "b"},
+            {"question": "Choose correct article: ___ apple\n(a) A\n(b) An\n(c) The\n(d) No article", "answer": "b"},
+            {"question": "Opposite of 'cold'?\n(a) Hot\n(b) Warm\n(c) Cool\n(d) Freezing", "answer": "a"},
+            {"question": "Synonym of 'angry'?\n(a) Mad\n(b) Calm\n(c) Happy\n(d) Sad", "answer": "a"},
+            {"question": "Choose correct: He ___ running.\n(a) is\n(b) are\n(c) am\n(d) be", "answer": "a"},
+            {"question": "Plural of 'foot'?\n(a) Foots\n(b) Feet\n(c) Footes\n(d) Fets", "answer": "b"},
+            {"question": "Opposite of 'begin'?\n(a) Start\n(b) Stop\n(c) End\n(d) Continue", "answer": "c"},
+            {"question": "Synonym of 'quick'?\n(a) Slow\n(b) Fast\n(c) Late\n(d) Weak", "answer": "b"},
+            {"question": "Plural of 'sheep'?\n(a) Sheeps\n(b) Sheep\n(c) Sheepe\n(d) Sheap", "answer": "b"},
+            {"question": "Past tense of 'run'?\n(a) Run\n(b) Ran\n(c) Running\n(d) Runned", "answer": "b"},
+            {"question": "Antonym of 'bright'?\n(a) Dark\n(b) Light\n(c) Shine\n(d) Glow", "answer": "a"},
+            {"question": "Correct form: They ___ friends.\n(a) is\n(b) are\n(c) am\n(d) be", "answer": "b"},
+            {"question": "Synonym of 'begin'?\n(a) End\n(b) Start\n(c) Finish\n(d) Close", "answer": "b"}
         ],
+        }
