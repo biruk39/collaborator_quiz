@@ -38,7 +38,7 @@ def run_quiz():
             {"question": "Wave that can travel in vacuum?\n(a) Sound\n(b) Light\n(c) Water\n(d) Seismic", "answer": "b"},
             {"question": "SI unit of temperature?\n(a) Celsius\n(b) Kelvin\n(c) Fahrenheit\n(d) Joule", "answer": "b"}
         ],
-        #this part is done by biruk daniel
+        #this physics part is done by biruk daniel
  "Chemistry": [
             {"question": "Chemical symbol for gold?\n(a) Au\n(b) Ag\n(c) Go\n(d) Gd", "answer": "a"},
             {"question": "pH of pure water?\n(a) 7\n(b) 0\n(c) 14\n(d) 1", "answer": "a"},
@@ -61,7 +61,7 @@ def run_quiz():
             {"question": "Acid + Base = ?\n(a) Water\n(b) Salt\n(c) Both\n(d) None", "answer": "c"},
             {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b" }
  ],
-        #this part is done by nesiha nurselam 
+        #this chemistry part is done by nesiha nurselam 
 
         "Math": [
             {"question": "What is 5 + 3?\n(a) 6\n(b) 7\n(c) 8\n(d) 9", "answer": "c"},
@@ -85,7 +85,7 @@ def run_quiz():
             {"question": "What is 6 + 9?\n(a) 14\n(b) 15\n(c) 16\n(d) 17", "answer": "b"},
             {"question": "What is 10 ÷ 2?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"}
         ],
-# this part is done by hikma mohammed
+       # this maths part is done by hikma mohammed
 
 "Biology": [
             {"question": "The powerhouse of the cell?\n(a) Nucleus\n(b) Mitochondria\n(c) Ribosome\n(d) Chloroplast", "answer": "b"},
@@ -107,7 +107,7 @@ def run_quiz():
             {"question": "Smallest unit of an element?\n(a) Atom\n(b) Molecule\n(c) Cell\n(d) Electron", "answer": "a"},
             {"question": "Blood clotting cells?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "c"},
             {"question": "Process of breaking down food?\n(a) Digestion\n(b) Photosynthesis\n(c) Respiration\n(d) Excretion", "answer": "a"}
-            ],
+      #this biology part is done by anchinalush
         
         "English": [
             {"question": "Synonym of 'happy'?\n(a) Sad\n(b) Joyful\n(c) Angry\n(d) Tired", "answer": "b"},
@@ -131,4 +131,45 @@ def run_quiz():
             {"question": "Correct form: They ___ friends.\n(a) is\n(b) are\n(c) am\n(d) be", "answer": "b"},
             {"question": "Synonym of 'begin'?\n(a) End\n(b) Start\n(c) Finish\n(d) Close", "answer": "b"}
         ],
-        }
+    }
+       #this english part is done by afiya
+       
+    total_score = 0
+    subject_scores = {subject: 0 for subject in quiz.keys()}
+
+    
+    for subject, questions in quiz.items():
+        print(f"\n--- {subject} Questions ---")
+        for idx, q in enumerate(questions, start=1):
+            print(f"\nQ{idx}: {q['question']}")
+            ans = input("Your answer (a/b/c/d): ").strip().lower()
+            if ans == q["answer"]:
+                total_score += 1
+                subject_scores[subject] += 1
+                print(f"✅Correct✅ +1 mark | Current Score: {total_score} | {subject} Score: {subject_scores[subject]}")
+            else:
+                print(f"❌Wrong❌! Correct answer is : {q['answer']} | Current Score: {total_score} | {subject} Score: {subject_scores[subject]}")
+
+    print("\n===================================")
+    print(f"{name}, your total score is {total_score}/100")
+
+    
+    for subject, score in subject_scores.items():
+        print(f"{subject} Score: {score}/20")
+
+    
+    percent = total_score
+    if percent < 30:
+        print("Don't worry! Study and try again. ")
+    elif 30 <= percent < 50:
+        print("Not bad, but you can do better!")
+    elif 50 <= percent < 70:
+        print("Good job! Keep improving!")
+    elif 70 <= percent < 90:
+        print("Great work! Almost perfect!")
+    else:
+        print("Excellent! You aced the quiz! ")
+
+
+run_quiz()
+#this code is done by group members
