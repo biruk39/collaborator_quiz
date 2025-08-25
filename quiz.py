@@ -1,4 +1,4 @@
-
+#quiz
 
 print("===================================")
 print("   Quiz Question     " )
@@ -61,7 +61,7 @@ def run_quiz():
             {"question": "Acid + Base = ?\n(a) Water\n(b) Salt\n(c) Both\n(d) None", "answer": "c"},
             {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b" }
  ],
-        #this part is done by nesiha nurselam
+        #this part is done by nesiha nurselam 
 
         "Math": [
             {"question": "What is 5 + 3?\n(a) 6\n(b) 7\n(c) 8\n(d) 9", "answer": "c"},
@@ -97,7 +97,7 @@ def run_quiz():
             {"question": "Process of making food in plants?\n(a) Respiration\n(b) Photosynthesis\n(c) Digestion\n(d) Fermentation", "answer": "b"},
             {"question": "What carries oxygen in blood?\n(a) Plasma\n(b) Red blood cells\n(c) Platelets\n(d) WBC", "answer": "b"},
             {"question": "Smallest blood vessels?\n(a) Veins\n(b) Arteries\n(c) Capillaries\n(d) Venules", "answer": "c"},
-            {"question": "Where is DNA found?\n(a) Ribosome\n(b) Nucleus\n(c) Cytoplasm\n(d) Cell membrane", "answer": "b"},
+
             {"question": "Humans have how many senses?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"},
             {"question": "Which blood cells fight infection?\n(a) RBC\n(b) WBC\n(c) Platelets\n(d) Plasma", "answer": "b"},
             {"question": "Plant cells have?\n(a) Cell wall\n(b) Chloroplast\n(c) Vacuole\n(d) All", "answer": "d"},
