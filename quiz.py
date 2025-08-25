@@ -38,6 +38,7 @@ def run_quiz():
             {"question": "Wave that can travel in vacuum?\n(a) Sound\n(b) Light\n(c) Water\n(d) Seismic", "answer": "b"},
             {"question": "SI unit of temperature?\n(a) Celsius\n(b) Kelvin\n(c) Fahrenheit\n(d) Joule", "answer": "b"}
         ],
+        #this part is done by Nesiha
  "Chemistry": [
             {"question": "Chemical symbol for gold?\n(a) Au\n(b) Ag\n(c) Go\n(d) Gd", "answer": "a"},
             {"question": "pH of pure water?\n(a) 7\n(b) 0\n(c) 14\n(d) 1", "answer": "a"},
@@ -58,5 +59,32 @@ def run_quiz():
             {"question": "Boiling point of water?\n(a) 100°C\n(b) 90°C\n(c) 110°C\n(d) 120°C", "answer": "a"},
             {"question": "Mol is unit of?\n(a) Mass\n(b) Amount of substance\n(c) Volume\n(d) Pressure", "answer": "b"},
             {"question": "Acid + Base = ?\n(a) Water\n(b) Salt\n(c) Both\n(d) None", "answer": "c"},
-            {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b"}
+            {"question": "Electrolytes conduct?\n(a) Heat\n(b) Electricity\n(c) Sound\n(d) Light", "answer": "b" }
+ ],
+        #this part is done by Hikma mohammed
+
+        "Math": [
+            {"question": "What is 5 + 3?\n(a) 6\n(b) 7\n(c) 8\n(d) 9", "answer": "c"},
+            {"question": "What is 9 - 4?\n(a) 3\n(b) 5\n(c) 6\n(d) 7", "answer": "b"},
+            {"question": "What is 6 × 2?\n(a) 12\n(b) 10\n(c) 14\n(d) 8", "answer": "a"},
+            {"question": "What is 15 ÷ 3?\n(a) 4\n(b) 5\n(c) 6\n(d) 3", "answer": "b"},
+            {"question": "What is the square of 4?\n(a) 8\n(b) 12\n(c) 16\n(d) 20", "answer": "c"},
+            {"question": "What is 10 + 5?\n(a) 15\n(b) 14\n(c) 13\n(d) 16", "answer": "a"},
+            {"question": "What is 7 × 3?\n(a) 21\n(b) 24\n(c) 18\n(d) 27", "answer": "a"},
+            {"question": "What is 20 - 8?\n(a) 10\n(b) 11\n(c) 12\n(d) 13", "answer": "c"},
+            {"question": "What is 9 + 6?\n(a) 14\n(b) 15\n(c) 16\n(d) 17", "answer": "b"},
+            {"question": "What is 12 ÷ 4?\n(a) 2\n(b) 3\n(c) 4\n(d) 6", "answer": "b"},
+            {"question": "What is 3 squared?\n(a) 6\n(b) 9\n(c) 12\n(d) 3", "answer": "b"},
+            {"question": "What is 8 + 7?\n(a) 14\n(b) 15\n(c) 16\n(d) 17", "answer": "b"},
+            {"question": "What is 14 - 9?\n(a) 3\n(b) 4\n(c) 5\n(d) 6", "answer": "c"},
+            {"question": "What is 2 × 5?\n(a) 10\n(b) 12\n(c) 8\n(d) 6", "answer": "a"},
+            {"question": "What is 18 ÷ 2?\n(a) 9\n(b) 8\n(c) 10\n(d) 7", "answer": "a"},
+            {"question": "What is 11 + 4?\n(a) 14\n(b) 15\n(c) 16\n(d) 13", "answer": "b"},
+            {"question": "What is 16 - 7?\n(a) 8\n(b) 9\n(c) 10\n(d) 11", "answer": "b"},
+            {"question": "What is 5 × 5?\n(a) 20\n(b) 25\n(c) 30\n(d) 35", "answer": "b"},
+            {"question": "What is 6 + 9?\n(a) 14\n(b) 15\n(c) 16\n(d) 17", "answer": "b"},
+            {"question": "What is 10 ÷ 2?\n(a) 4\n(b) 5\n(c) 6\n(d) 7", "answer": "b"}
+        ]
+
+    }
             # this part is done by nesiha
